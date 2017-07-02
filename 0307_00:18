@@ -1,0 +1,22 @@
+Equity derivatives are extensively used in financial market. The values of equity derivatives depends on their underlying financial assets
+which at least involve equity securities, and many derivatives have complicated structure since they are well-designed to meet the 
+specific demands of investors. Under the Black-Scholes model, the task to price the equity derivative can be transformed into solve the 
+Black-Scholes partial differential equation(PDE). Under certain circumstances, such as pricing European options, there are feasible 
+closed-form solutions to the corresponding PDEs. But more commonly, the exact solutions are hard to get or even not exist owing to the 
+complexity of derivatives.
+In practical, numerical methods are widely used to price the dirivatives
+
+
+
+
+\begin{comment}
+BSModel
+FDM 
+Finite difference method()
+explicit method
+implicit method
+Crank–Nicolson method
+Usually the Crank–Nicolson scheme is the most accurate scheme for small time steps. The explicit scheme is the least accurate and can be unstable, but is also the easiest to implement and the least numerically intensive. The implicit scheme works the best for large time steps.
+
+Alternating Direction Implicit (ADI) method
+ operator splitting method
